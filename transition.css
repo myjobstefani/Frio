@@ -1,0 +1,272 @@
+
+@font-face{
+   font-family: madimi;
+   src: url(font/MadimiOne-Regular.ttf);
+}
+@font-face{
+   font-family: mandali;
+   src: url(font/Mandali-Regular.ttf);
+}
+
+/* a partir daqui é a parte de css*/
+
+html{
+    scroll-behavior: smooth;
+}
+   .html{
+           font-size: 62.5%;
+           
+   }
+
+
+/* a partir daqui é a parte de css HISTORIA */
+
+
+   .imagemhistoria{ 
+           background-color: #FDF2FF;
+           margin: 0rem;
+           padding: 0rem;
+   }
+
+   .hei{
+           list-style-type: none;
+           list-style-position: inside;
+           margin: 2rem 14rem 2rem 3rem;
+           display: flex;
+           text-align:left;
+           font-size: 1.4rem;
+           color: #4A4268;
+           font-family: mandali;
+    }
+    .imagem{
+           list-style-type: none;
+           list-style-position: inside;
+           margin: 0rem;
+           display: flex;
+    }
+
+   b{
+       font-size: 3rem;
+       font-family: madimi ;
+   }
+
+
+/* a partir daqui é a parte de css MENU */
+
+
+   .menubotao{
+           list-style-type: none;
+           list-style-position: inside;
+           margin: 0rem;
+           display: flex;
+           justify-content: flex-end;
+           align-items:flex-start;
+           padding: 0rem 0rem 3rem 0rem;
+           background-color:#FDF2FF;
+           height: 1rem;
+           position: absolute;
+           z-index: 1;
+   }
+   
+   .botao{
+           margin: 0.5rem 0.8rem;
+           width: 6rem;
+           padding: 0.6rem;
+           font-family: madimi ;
+           text-align: center;
+           color: #4A4268;
+           font-size: 1.3rem;
+   }
+
+   a{
+   text-decoration: none;
+    font-family: madimi ;
+    text-align: center;
+    color: #4A4268;
+    font-size: 1.3rem;
+    
+    
+   }
+
+   a:hover{
+    color: #FDF2FF;
+   }
+
+   .botao:hover{
+           color: #ffffff;
+           background-color: #4A4268;
+   }
+
+   nav{
+           width: 100%;
+   }
+
+   .frio{
+           width: 5rem;
+           margin: 1rem 0rem 0rem 4rem;
+      }
+
+   .espaço{
+           flex-grow: 1;
+   }
+
+   .back{
+           width: 100%;
+   }
+
+   html{
+       background-image: url(imagens/background\ efect.png);
+       background-repeat: no-repeat; 
+       background-size: cover;}
+
+   .cec{
+       margin: 0px;
+       padding: 0px;
+   }
+
+   .menubotao{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+   }
+
+
+
+/* a partir daqui é a parte de css PRINCIPAIS */
+
+
+   .principais{
+       color:#FDF2FF;
+       background-color: #776C9E;
+       font-size: 3rem;
+       border-radius: 1.2rem;
+       width: 40rem;
+       padding: 1rem;
+       justify-self: center;
+       margin: 5rem;
+       font-family: madimi ;
+       text-align: center;
+   }
+
+  /* a partir daqui é a parte de css CARDS */
+
+  #back{
+    background-image: radial-gradient(circle , #FDF2FF , #776C9E);
+min-width: 360px;
+height: 550px;  
+max-height: 550px;
+min-height: 550px;
+margin: 30px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+transition: 0.4s
+
+
+}
+
+
+.display{
+    display: flex;
+    margin: 0px auto 50px auto;
+    justify-content: center;
+}
+
+.seção{
+    display: flex;
+}
+
+#back:hover {
+height: 580px;  
+}
+
+.img{
+    text-align: center;
+    position:static;
+}
+.imggelato{
+    text-align: center;
+    position:static; 
+    margin-top: 95px;
+    
+}
+.imgex{
+    text-align: center;
+    position:static; 
+    margin-top: 40px; 
+}
+
+#back .conteudo{
+    background-color: #FDF2FF;
+    width: 300px;
+    border-radius: 15px;
+    color: #4A4268;
+    margin: -50px auto 0px auto;
+    position: relative;
+    height: 90px;
+    transition: 0.5s;
+}
+#back .conteudi{
+    background-color: #FDF2FF;
+    width: 300px;
+    border-radius: 15px;
+    color: #4A4268;
+    margin: 1px auto 0px auto;
+    position: relative;
+    height: 90px;
+    transition: 0.5s;
+}
+
+#back:hover .conteudo{
+    height: 200px;
+}
+#back:hover .conteudi{
+    height: 200px;
+}
+.casquinha{
+    font-family: madimi;
+    text-align: center;
+    font-size: 55px;
+    margin: 0px;
+}
+.Crocante{
+    font-family: mandali;
+    text-align:end;
+    font-size: 20px;
+    margin:-28px 35px 0px 0px;
+}
+
+#back .descrição{
+    font-family: mandali;
+    margin:0px;
+    font-size: 0px;
+    opacity: 0;
+    transition: 0.15s;
+}
+
+#back:hover .descrição{
+    font-family: mandali;
+    margin:0px;
+    font-size: 15px;
+    opacity: 1;
+}
+
+   
+
+/* a partir daqui é a parte de css CONTATOS */
+   .contatos{
+       background-color: #4A4268;
+       margin: 0px;
+       padding: 20px;
+       text-align: center;
+       color: #FDF2FF;
+       font-family: mandali;
+
+   }
+
+   .contatoconosco{
+       font-family: madimi;
+       font-size: 1.3rem;
+       position: relative;
+       margin-top:0%;
+   }
+
